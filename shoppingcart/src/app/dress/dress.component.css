@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     padding: 0; 
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border : 1px solid #ff523b;
+    padding: 5px;
+}
+select-focus{
+    outline: none;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-4 img{
+    width: 235px;
+    height: 290px;
+}
+
+.page-btn{
+    margin: 50px 550px 80px;
+}
+.page-btn span {
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+
+.page-btn span:hover {
+    background: #ff523b;
+    color: #fff;
+}
+
+
+.categories{
+position:relative;
+overflow:hidden;
+}
+
+.categories .categories_item{
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.categories .categories_text{
+	position: absolute;
+	left: 50px;
+}
+
+.categories .categories_large_item .categories_text{
+	position: absolute;
+	left: 50px; max-width: 300px;
+}
+
+.categories .categories_large_item .categories_text p{
+	margin-bottom: 15px;
+}
+
+.categories .categories_text h1{
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.categories .categories_text h4{
+	color: #000;
+	font-weight: 700;
+}
+
+.categories .categories_text p{
+	margin-bottom: 10px;
+}
+
+.categories .categories_text a{
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+	padding: 0 0 3px;
+	display: inline-block;
+}
+
+.categories .categories_text a:after{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background-color: #ff7200;
+	content: '';
+}
+
+.col-4{
+    position: relative; 
+}
+
+.col-4 span{
+    display: none;
+   
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.col-4:hover span{
+    display: block;
+}
+
+.col-4 span input[type="button"]{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background:red;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

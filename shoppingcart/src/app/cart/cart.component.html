@@ -1,0 +1,50 @@
+<app-header></app-header>
+<h1 style="background-color: aquamarine;">ADDED TO CART</h1>
+
+<div *ngFor="let c of cart">
+  <!----
+  <li>{{c.productName}}</li>
+  <img src="{{c.imageUrl}}">
+</ul>
+<div class="form-cart">
+  <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        CASH ON DELIVERY
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+        CARD ON DELIVERY
+      </label>
+    </div>
+  <input type="button" Value="checkout" routerLink="/app-checkout-products">
+  <input type="button" Value="Cancel" routerLink="/app-home">
+  </div>
+
+
+-->
+<div class="small-container">
+  <div class="row">
+    
+  
+     
+        
+          <div class="col-4">
+            <img src="{{c.imageUrl}}">
+           
+          <h1>{{c.productName}}</h1>
+          <h1>Rs. {{c.unitPrice}}</h1>
+          
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+    <h1> Total price= {{totalPrice}}</h1>
+  </div>
+          <input type="button" Value="checkout" routerLink="/app-checkout-products">
+          <input type="button" Value="Cancel" routerLink="/app-home">
+          

@@ -1,0 +1,56 @@
+<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Dropdown Menu Bar</title>
+      <link rel="stylesheet" href="header.component.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+
+<div class="header">
+  <nav>
+         
+    <input type="text" name="search" placeholder="Search..">
+  
+  
+           <ul>
+              <li><a routerLink="">Home</a></li>
+              
+              <li>
+                 <a href="#">Categories
+                 <i class="fas fa-caret-down"></i>
+                 </a>
+                 <ul>
+                    
+                    <li>
+                       <a href="#">Women
+                       <i class="fas fa-caret-right"></i>
+                       </a>
+                       <ul>
+                          <li><a  routerLink="/dress">Dress</a></li>
+                          <li><a  routerLink="/skirt">Skirts</a></li>
+                          
+                       </ul>
+                    </li>
+                 </ul>
+              </li>
+              <li><a  routerLink="/orderPage">Orders</a></li>
+              <li><a  routerLink="/login">Sign In</a></li>
+              <li><a  routerLink="/sign-up">Sign Up!</a></li>
+
+              <li>
+                 
+    <div  routerLink="/app-cart" class="header_menu_cart">
+      <img src="./assets/cart2.png">
+    </div>
+             </li>
+           </ul>
+        </nav>
+    
+ </div>
+  
+    
+  
+  
+ 
+
+  

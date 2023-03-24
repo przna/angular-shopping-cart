@@ -1,0 +1,178 @@
+
+    <title>Prodcuts</title>
+
+    <link rel="stylesheet" href ="dress.component.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;
+    600;700&display=swap"  rel="stylesheet" >
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+ 
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+  <!--------------------------------------->
+<app-header></app-header>
+<!--<ul *ngFor="let p of product">
+  <li>{{p.productName}} {{p.productprice}}</li>
+  <li><img  src="{{p.imageurl}}"></li>
+</ul> 
+-->
+<div class="small-container">
+ <h1 style="text-align:center;font-size:40px;padding-top:10px;">Dresses</h1>
+  <div class="row">
+    <div class="col-4">
+      <img  src="./assets/Clothing/Women/Dress1.jpg">
+      <span><input type="button" Value="Add to Cart" (click)="addCart('RedBallGown')"></span>
+      <h4>Red Ball Gown</h4>
+      <br>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <br>
+      <p>Rs.2650/-</p>
+    </div>
+    
+    <div class="col-4">
+      <img src="./assets/Clothing/Women/Dress2.jpg">
+      <span><input type="button" Value="Add to Cart" (click)="addCart('MaroonKneeLengthDress')"></span>
+      <h4>Maroon Knee Length Dress</h4>
+      <br>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <br>
+      <p>Rs.850/-</p>
+      </div>
+      <div class="col-4">
+        <img src="./assets/Clothing/Women/Dress3.jpg">
+        <span><input type="button" Value="Add to Cart" (click)="addCart('GreenKneeLengthDress')"></span>
+        <h4>Green Knee Length Dress</h4>
+        <br>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <br>
+        <p>Rs.750/-</p>
+      </div>
+      </div>
+        
+
+
+  <div class="row">
+    <div class="col-4">
+      <img src="./assets/Clothing/Women/Dress4.jpg">
+      <span><input type="button" Value="Add to Cart" (click)="addCart('YellowOff-Shoulder')" routerLink="/app-checkout"></span>
+      <h4>Yellow Off-Shoulder</h4>
+      <br>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <br>
+      <p>Rs.1650/-</p>
+    </div>
+    <div class="col-4">
+      <img src="./assets/Clothing/Women/Dress5.jpg">
+      <span><input type="button" Value="Add to Cart" (click)="addCart('DarkGreenKneeLengthDress')"></span>
+      <h4>Dark Green Knee Length Dress</h4>
+      <br>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <br>
+      <p>Rs.950/-</p>
+      </div>
+      <div class="col-4">
+        <img src="./assets/Clothing/Women/Dress6.jpg">
+        <span><input type="button" Value="Add to Cart" (click)="addCart('BlueNetDress')"></span>
+        <h4>Blue Net Dress</h4>
+        <br>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <br>
+        <p>Rs.620/-</p>
+      </div>
+      </div>
+
+    
+      <div class="row">
+    <div class="col-4">
+      <img src="./assets/Clothing/Women/Dress7.jpg">
+      <span><input type="button" Value="Add to Cart" (click)="addCart('PinkLongLengthDress')"></span>
+      <h4>Pink Long Length Dress</h4>
+      <br>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <br>
+      <p>Rs.870/-</p>
+    </div>
+    <div class="col-4">
+      <img src="./assets/Clothing/Women/Dress8.jpg">
+      <span><input type="button" Value="Add to Cart" (click)="addCart('BlueHighLowDress')"></span>
+      <h4>Blue High Low Dress</h4>
+      <br>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <br>
+      <p>Rs.1120/-</p>
+      </div>
+      <div class="col-4">
+        <img src="./assets/Clothing/Women/Dress9.jpg">
+        <span><input type="button" Value="Add to Cart" (click)="addCart('BlackHighLowDress')"></span>
+        <h4>Black High Low Dress</h4>
+        <br>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <br>
+        <p>Rs.1790/-</p>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+            $('.icon').click(function(){
+              $('span').toggleClass("cancel");
+            });
+          </script>
+        
+    

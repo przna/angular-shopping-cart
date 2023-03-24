@@ -1,0 +1,164 @@
+*{
+    margin:-10;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.navbar{
+
+    display:flex;
+    align-items: center;
+    padding: 20px;
+
+}
+nav{
+    flex: 9;
+    text-align : right;
+
+
+}
+nav ul{
+    display:inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right:30px;
+}
+a{
+    text-decoration: none;
+    color:#555;
+
+}
+p{
+    color:#555;
+}
+.container{
+    max-width: 1300px;
+    margin: -1px;
+    padding-left:25px;
+    padding-right:25px;
+}
+/*.btn{
+    display: inline-block;
+    background:#ff523b;
+    color:#fff;
+    padding:8px 30px;
+    margin: 30px 0;
+    border-radius:30px;
+} 
+.btn:hover{
+
+    bac
+}*/
+/*-------cart item details---------*/
+.cart-page{
+margin:-20px auto;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display:flex;
+    flex-wrap: wrap;
+}
+th{ 
+    text-align:left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+
+
+}
+td a{
+    color:#ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+
+}
+.total-price{
+    display :flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+
+}
+th:last-child{
+    text-align: right;
+
+}
+
+/*--brands--*/
+.brands{
+    margin:100px auto;
+
+}
+.col-5{
+    width:160px;
+
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color:#8a8a8a;
+
+}
+.footer h3{
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis:30px;
+
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type:none;
+}
+
